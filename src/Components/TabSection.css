@@ -1,0 +1,39 @@
+.tab-section {
+  display: block;
+  min-height: 140px;
+  background-color: #0b9dd2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-tab-section {
+  max-width: 1000px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-data {
+  max-width: 450px;
+  text-align: left;
+  margin: 0px 20px;
+}
+
+.tab-header {
+  color: white;
+  font-size: 21px;
+}
+
+.tab-caption {
+  color: rgba(255,255,255,.7);
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  .inner-tab-section {
+    flex-direction: column;
+  }
+}

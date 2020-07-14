@@ -1,0 +1,62 @@
+.fixed-navbar {
+  background-color: white;
+  padding: 20px 0px 10px 0px;
+}
+
+.inner-navbar {
+  max-width: 1000px;
+  margin: 0px auto; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-shippop {
+  width: 191px;
+  height: 40px;
+  display: block;
+}
+
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 640px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.top-link > a {
+  color: grey;
+  text-decoration: none;
+  margin-right: 35px;
+  font-size: 21px;
+}
+
+.top-link > a:hover {
+  color: lightblue;
+}
+
+.right-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.log-in-button {
+  margin-left: 14px;
+  width: 165px;
+}
+
+.lang-button {
+  margin-left: 10px;
+}
+
+.right-menu {
+  margin-right: 10px;
+}

@@ -1,0 +1,39 @@
+.article-section {
+  width: 100vw;
+  background-image: url('https://www.shippop.com/assets/images/frontpage/bg_article.jpg');
+  background-repeat: no-repeat;
+  padding: 40px 0px;
+}
+
+.inner-article-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.article-card-list {
+  margin: 25px auto 0px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.article-card {
+  margin: 5px;
+}
+
+.article-img {
+  height: 125px; 
+  width: 235px;
+}
+
+.article-title {
+  font-size: 16px;
+  line-height: 1.3em;
+  height: 2.6em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

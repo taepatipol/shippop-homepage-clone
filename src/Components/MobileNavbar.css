@@ -1,0 +1,18 @@
+.mobile-navbar {
+  height: 50.8px;
+  background-color: white;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-icon {
+  height: 28px;
+  margin: 0px 5px;
+}
+
+.right-mobile-navbar {
+  margin-right: 10px;
+}

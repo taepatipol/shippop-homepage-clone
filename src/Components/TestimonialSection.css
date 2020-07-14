@@ -1,0 +1,47 @@
+.testimonial-section {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://www.shippop.com/assets/images/frontpage/bg_testimonial.jpg');
+}
+
+.testimonial-wrapper {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px 0px 20px 0px;
+}
+
+.customer {
+  width: 240px;
+  margin: 0px 5px;
+}
+
+.customer-name {
+  font-size: 21px;
+  color: #0b9dd2;
+}
+
+.customer-position {
+  font-size: 14px;
+  color: #959595;
+}
+
+.customer-feedback {
+  font-size: 14px;
+  color: #555555;
+  margin: 18px 0px 25px;
+}
+
+.customer-img {
+  width:131px;
+  border-radius:50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial-wrapper {
+    flex-direction: column;
+  }
+}

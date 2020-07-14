@@ -1,0 +1,43 @@
+.service-section {
+  width: 100vw;
+  background-image: url("https://www.shippop.com/assets/images/frontpage/bg_partner.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 40px 0px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-box {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px auto auto auto;
+}
+
+.service-card {
+  padding: 20px 0px;
+}
+
+.service-img {
+  max-height: 64px;
+  object-fit: contain;
+}
+
+.service-title {
+  font-size: 25px;
+  color: #0b9dd2;
+}
+
+.service-card {
+  margin: 5px;
+  background-color: #f8f8f8;
+}
+
+@media only screen and (max-width: 600px) {
+  .service-box {
+    flex-direction: column;
+  }
+}
