@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/shippop-homepage-clone/static/css/main.a4c0006a.chunk.css",
+    "main.js": "/shippop-homepage-clone/static/js/main.795c54ca.chunk.js",
+    "main.js.map": "/shippop-homepage-clone/static/js/main.795c54ca.chunk.js.map",
+    "runtime-main.js": "/shippop-homepage-clone/static/js/runtime-main.b5b58d37.js",
+    "runtime-main.js.map": "/shippop-homepage-clone/static/js/runtime-main.b5b58d37.js.map",
+    "static/css/2.4c4477be.chunk.css": "/shippop-homepage-clone/static/css/2.4c4477be.chunk.css",
+    "static/js/2.b241dd4a.chunk.js": "/shippop-homepage-clone/static/js/2.b241dd4a.chunk.js",
+    "static/js/2.b241dd4a.chunk.js.map": "/shippop-homepage-clone/static/js/2.b241dd4a.chunk.js.map",
+    "index.html": "/shippop-homepage-clone/index.html",
+    "precache-manifest.3cd1c077db11c056941991bdc8f38fd3.js": "/shippop-homepage-clone/precache-manifest.3cd1c077db11c056941991bdc8f38fd3.js",
+    "service-worker.js": "/shippop-homepage-clone/service-worker.js",
+    "static/css/2.4c4477be.chunk.css.map": "/shippop-homepage-clone/static/css/2.4c4477be.chunk.css.map",
+    "static/css/main.a4c0006a.chunk.css.map": "/shippop-homepage-clone/static/css/main.a4c0006a.chunk.css.map",
+    "static/js/2.b241dd4a.chunk.js.LICENSE.txt": "/shippop-homepage-clone/static/js/2.b241dd4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5b58d37.js",
+    "static/css/2.4c4477be.chunk.css",
+    "static/js/2.b241dd4a.chunk.js",
+    "static/css/main.a4c0006a.chunk.css",
+    "static/js/main.795c54ca.chunk.js"
+  ]
+}
