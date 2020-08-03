@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/shippop-homepage-clone/static/css/main.a2be6fb2.chunk.css",
-    "main.js": "/shippop-homepage-clone/static/js/main.745c3bf4.chunk.js",
-    "main.js.map": "/shippop-homepage-clone/static/js/main.745c3bf4.chunk.js.map",
+    "main.css": "/shippop-homepage-clone/static/css/main.4c241d8b.chunk.css",
+    "main.js": "/shippop-homepage-clone/static/js/main.90bacc29.chunk.js",
+    "main.js.map": "/shippop-homepage-clone/static/js/main.90bacc29.chunk.js.map",
     "runtime-main.js": "/shippop-homepage-clone/static/js/runtime-main.62945135.js",
     "runtime-main.js.map": "/shippop-homepage-clone/static/js/runtime-main.62945135.js.map",
     "static/css/2.4c4477be.chunk.css": "/shippop-homepage-clone/static/css/2.4c4477be.chunk.css",
-    "static/js/2.e34309b3.chunk.js": "/shippop-homepage-clone/static/js/2.e34309b3.chunk.js",
-    "static/js/2.e34309b3.chunk.js.map": "/shippop-homepage-clone/static/js/2.e34309b3.chunk.js.map",
+    "static/js/2.05adc169.chunk.js": "/shippop-homepage-clone/static/js/2.05adc169.chunk.js",
+    "static/js/2.05adc169.chunk.js.map": "/shippop-homepage-clone/static/js/2.05adc169.chunk.js.map",
     "index.html": "/shippop-homepage-clone/index.html",
-    "precache-manifest.7a709eb9a5467bec4525e87ae026dd8b.js": "/shippop-homepage-clone/precache-manifest.7a709eb9a5467bec4525e87ae026dd8b.js",
+    "precache-manifest.92e5370d15f0ab486028926d58cce6c5.js": "/shippop-homepage-clone/precache-manifest.92e5370d15f0ab486028926d58cce6c5.js",
     "service-worker.js": "/shippop-homepage-clone/service-worker.js",
     "static/css/2.4c4477be.chunk.css.map": "/shippop-homepage-clone/static/css/2.4c4477be.chunk.css.map",
-    "static/css/main.a2be6fb2.chunk.css.map": "/shippop-homepage-clone/static/css/main.a2be6fb2.chunk.css.map",
-    "static/js/2.e34309b3.chunk.js.LICENSE.txt": "/shippop-homepage-clone/static/js/2.e34309b3.chunk.js.LICENSE.txt"
+    "static/css/main.4c241d8b.chunk.css.map": "/shippop-homepage-clone/static/css/main.4c241d8b.chunk.css.map",
+    "static/js/2.05adc169.chunk.js.LICENSE.txt": "/shippop-homepage-clone/static/js/2.05adc169.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.62945135.js",
     "static/css/2.4c4477be.chunk.css",
-    "static/js/2.e34309b3.chunk.js",
-    "static/css/main.a2be6fb2.chunk.css",
-    "static/js/main.745c3bf4.chunk.js"
+    "static/js/2.05adc169.chunk.js",
+    "static/css/main.4c241d8b.chunk.css",
+    "static/js/main.90bacc29.chunk.js"
   ]
 }
