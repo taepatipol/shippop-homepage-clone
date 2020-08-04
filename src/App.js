@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './App.css'
 import { Route } from 'react-router-dom'
+import ReactGA from 'react-ga'
 
 import FixedNavbar from './Components/FixedNavbar'
 import PartnerSection from './Components/PartnerSection'
@@ -13,7 +14,21 @@ import FooterSection from './Components/FooterSection'
 import MobileNavbar from './Components/MobileNavbar'
 import Carousel from './Components/Carousel'
 
+export const initGA = () => {
+  ReactGA.initialize('UA-174253601-1')
+}
+export const logPageView = () => {
+  ReactGA.set({ page: window.location.hash })
+  ReactGA.pageview(window.location.hash)
+}
+
 function App() {
+
+  useEffect(() => {
+    initGA()
+    logPageView()
+  })
+
   return (
     <div className="App">
       <FixedNavbar/>
