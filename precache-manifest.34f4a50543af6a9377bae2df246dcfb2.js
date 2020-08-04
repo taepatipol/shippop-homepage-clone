@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4ff6d8ebac98e63e6880a05422699b0",
+    "revision": "6353de26a3c137073bb144abbfdc4e8b",
     "url": "/shippop-homepage-clone/index.html"
   },
   {
-    "revision": "69b4f2941b73554a41b3",
+    "revision": "9885e691ed84f7264957",
     "url": "/shippop-homepage-clone/static/css/2.4c4477be.chunk.css"
   },
   {
-    "revision": "42cee602c2af09b053b7",
+    "revision": "ce228f299271f3d8e616",
     "url": "/shippop-homepage-clone/static/css/main.a4c0006a.chunk.css"
   },
   {
-    "revision": "69b4f2941b73554a41b3",
-    "url": "/shippop-homepage-clone/static/js/2.9c352d4f.chunk.js"
+    "revision": "9885e691ed84f7264957",
+    "url": "/shippop-homepage-clone/static/js/2.befb2507.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/shippop-homepage-clone/static/js/2.9c352d4f.chunk.js.LICENSE.txt"
+    "url": "/shippop-homepage-clone/static/js/2.befb2507.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "42cee602c2af09b053b7",
-    "url": "/shippop-homepage-clone/static/js/main.a8f1cf01.chunk.js"
+    "revision": "ce228f299271f3d8e616",
+    "url": "/shippop-homepage-clone/static/js/main.7573f33e.chunk.js"
   },
   {
     "revision": "038c7b2d25e5b2b42f8b",
