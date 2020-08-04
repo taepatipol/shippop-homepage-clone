@@ -1,6 +1,7 @@
 import React from 'react'
 import './FixedNavbar.css'
 import { Button, Input, Menu, Dropdown } from 'antd'
+import { Link } from 'react-router-dom'
 
 const { Search } = Input
 
@@ -35,10 +36,10 @@ function FixedNavbar() {
           </a>
           <nav>
             <div className="top-link">
-              <a href="https://www.shippop.com/">หน้าแรก</a>
+              <Link to='/'>หน้าแรก</Link>
             </div>
             <div className="top-link">
-              <a href="https://www.shippop.com/service/">บริการของเรา</a>
+              <Link to='/service'>บริการของเรา</Link>
             </div>
             <div className="top-link">
               <a href="https://www.shippop.com/faq/">คำถามที่พบบ่อย</a>
@@ -49,7 +50,7 @@ function FixedNavbar() {
               </Dropdown>
             </div>
             <div className="top-link">
-              <a href="https://www.shippop.com/contact/">ติดต่อเรา</a>
+              <Link to='/article'>บทความ</Link>
             </div>
           </nav>
         </div>

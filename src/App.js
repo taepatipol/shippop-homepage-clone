@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react'
 import './App.css'
 import { Route } from 'react-router-dom'
+
 import ReactGA from 'react-ga'
+import TagManager from 'react-gtm-module'
 
 import FixedNavbar from './Components/FixedNavbar'
 import PartnerSection from './Components/PartnerSection'
@@ -21,6 +23,11 @@ export const logPageView = () => {
   ReactGA.set({ page: window.location.hash })
   ReactGA.pageview(window.location.hash)
 }
+
+const tagManagerArgs = {
+  gtmId: 'GTM-PJDKWCT'
+}
+TagManager.initialize(tagManagerArgs)
 
 function App() {
 
