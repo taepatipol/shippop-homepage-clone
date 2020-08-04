@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/shippop-homepage-clone/precache-manifest.2a892b95d10ab27fe642b72af3a7bc3d.js"
+  "/shippop-homepage-clone/precache-manifest.0fc16c8c4eb8eb0baab7ad771d3b9af9.js"
 );
 
 self.addEventListener('message', (event) => {
