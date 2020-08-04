@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import { Route } from 'react-router-dom'
 
 import FixedNavbar from './Components/FixedNavbar'
 import PartnerSection from './Components/PartnerSection'
@@ -18,11 +19,17 @@ function App() {
       <FixedNavbar/>
       <MobileNavbar/>
       <div className="blank-cover"></div>
-      <Carousel/>
+      <Route exact path='/'>
+        <Carousel/>
+      </Route>
+      <Route exact path='/service'>
+        <ServiceSection/>
+      </Route>
+      <Route exact path='/article'>
+        <ArticleSection/>
+      </Route>
       <PartnerSection/>
-      <ServiceSection/>
       <TabSection/>
-      <ArticleSection/>
       <TestimonialSection/>
       <PressSection/>
       <FooterSection/>
